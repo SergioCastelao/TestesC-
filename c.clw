@@ -1,12 +1,12 @@
   PROGRAM
   MAP
     MODULE('c.cpp')
-      hw(*CSTRING),RAW,NAME('_hw')
+      _hw(*CSTRING),RAW
     END
   END
 
 Loc:Mensagem CSTRING(100)
   CODE
-    Hw(Loc:Mensagem)
+    _hw(Loc:Mensagem)
     Message(Loc:Mensagem)
   RETURN
