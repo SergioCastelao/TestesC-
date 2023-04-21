@@ -1,0 +1,8 @@
+-- Clarion com C++
+#noedit
+#system win32
+#model clarion dll
+#pragma debug(vid=>full)
+#compile "c.cpp"
+#compile "c.clw"
+#link "c.exe"
