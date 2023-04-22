@@ -6,7 +6,8 @@
   END
 
 Loc:Mensagem CSTRING(100)
-  CODE
+   CODE
+      message('teste')
     _hw(Loc:Mensagem)
     Message(Loc:Mensagem)
   RETURN
